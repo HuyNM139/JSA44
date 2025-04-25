@@ -18,3 +18,4 @@ let a= 10
 let b = 2
 let count = a*b
 console.log("count = "+count)
+//"10"+10=>"1010"
