@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DomEvent.css" />
+</head>
+<body>
+    <!--thuộc tính on click sẽ nhận vào tên của 1 hàm
+        mỗi lần bấm nút thì sẽ được gọi 1 lần -->
+    <button onclick="printMyName()">Click me</button>
+    <button onclick="changeName()">Change name</button>
+    <button onclick="openModal()">Open Modal</button>
+    <h1 id="name">Nguyen Minh Huy</h1>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Modal</h2>
+            <p>Mở modal thành công!</p>
+        </div>
+    </div>
+    <script src="./DomEvent.js"></script>
+</body>
+</html>
